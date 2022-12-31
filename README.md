@@ -1,5 +1,5 @@
 ### Welcome to my GitHub 👋
-### I'm Sonia Sarmiento, geneticist, ecologist and microbiologist by training working on bioinformatics since 2 years at the University of Lausanne 👩🏽‍💻
+### I'm Sonia Sarmiento, geneticist, evolutionary biologist and microbiologist by training working on bioinformatics since 2 years at the University of Lausanne 👩🏽‍💻
 ### I'm currently working on barn owl population genomics with Prof. Jérôme Goudet 🧬
 ### You can reach me at sonia.sarmientocabello@unil.ch 📫
 
