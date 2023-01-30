@@ -1,3 +1,9 @@
+##########################################################
+### Author: Sarmiento Cabello, Sonia                   ###
+### Version: 1.0.                                      ###
+### Objective: Plot Kinship of identified families.    ###
+##########################################################
+
 
 # Loading libraries
 library(SNPRelate)
