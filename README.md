@@ -1,7 +1,10 @@
-### Welcome to my GitHub 👋
-### I'm Sonia Sarmiento, geneticist, evolutionary biologist and microbiologist by training working on bioinformatics since 2 years at the University of Lausanne 👩🏽‍💻
-### I'm currently working on barn owl population genomics with Prof. Jérôme Goudet 🧬
-### You can reach me at sonia.sarmientocabello@unil.ch 📫
+### Pedigree analysis with their genetic information 👩‍👩‍👧‍👧🧬
+### This repo contains scripts to analyze pedigree data.
+### I developed this code while working on barn owl in the group of Prof. Jérôme Goudet during 2022/2023. 👩🏽‍💻
+
+
+
+
 
 <!--
 **sonisarm/sonisarm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
