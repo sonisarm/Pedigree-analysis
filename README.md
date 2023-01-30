@@ -1,5 +1,7 @@
-### Pedigree analysis with their genetic information 👩‍👩‍👧‍👧🧬
-### This repo contains scripts to analyze pedigree data.
+### Introduction
+
+# Pedigree analysis with their genetic information 👩‍👩‍👧‍👧🧬
+## This repo contains scripts to analyze pedigree data.
 ### I developed this code while working on barn owl in the group of Prof. Jérôme Goudet during 2022/2023. 👩🏽‍💻
 
 
