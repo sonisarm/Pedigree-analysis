@@ -1,5 +1,5 @@
 # Introduction
-### This repo contains scripts to analyze pedigree data using information from assigned families (e.g. PED file) and the genetic information from individuals. 
+### This repo contains scripts to analyze pedigree data using genetic information from individuals assigned or not into families. 
 
 - "Adding_individuals_to_pedigree.R": this code adds previously unidentified relationships based on beta estimates.
 - "Checking_family_links.R": with this code you can check if relationships in a ped file are correct.
