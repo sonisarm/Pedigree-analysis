@@ -1,5 +1,5 @@
 # Introduction
-### This repo contains scripts to analyze pedigree data using information from assigned families (e.g. PED file) and the genetic information from individuals. 👩‍👩‍👧‍👧🧬.  I developed this code while working on barn owl in the group of Prof. Jérôme Goudet during 2022/2023. 👩🏽‍💻
+### This repo contains scripts to analyze pedigree data using information from assigned families (e.g. PED file) and the genetic information from individuals. I developed this code while working on barn owl in the group of Prof. Jérôme Goudet during 2022/2023. 👩🏽‍💻
 
 
 
