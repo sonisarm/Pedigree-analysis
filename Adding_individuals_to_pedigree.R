@@ -16,7 +16,7 @@ library(dplyr)
 genofile <- snpgdsOpen('ref_panel_snps_f1_masked_maf05_miss05_LDpruned.gds') #GDS
 ped <- read.delim('4_fixed_sexes_readable.txt',h=F, sep="") #ped file
 b <- as.matrix(read.table("swiss_beta_matrix.table")) #beta matrix table
-hub <- read.delim('hub_list.txt', h=F) # List of individuals missing from the pedigree
+hub <- read.delim('Hubs_Libnames.txt', h=T) # List of individuals missing from the pedigree
 
 
 # Calculate beta estimates from genomic data
@@ -31,7 +31,7 @@ colnames(ped) <- c('famid','id','dadid','momid','sex','pheno')
 # Update sample names (if needed)
 n <- read.delim('refpanel_metadata.txt', sep=",", h=T).  #File with update sample names
   ## Change names to new ones 
- beta.mean$sample.id=as.character(beta.mean$sample.id)
+beta.mean$sample.id=as.character(beta.mean$sample.id)
 n$rawVCFname=as.character(n$rawVCFname)
 n$NEWname=as.character(n$NEWname)
 hub$V1=as.character(hub$V1)
