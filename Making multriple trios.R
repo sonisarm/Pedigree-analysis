@@ -22,7 +22,7 @@ indv <- unique(indv)
 indv_list <- as.list(indv) #make it a list 
 
 # Genetic pedigree (swiss + Georgian) #
-ped <- read.delim('manual_phasing_pedigree_Libnames_final.txt', header=F,sep="")
+ped <- read.delim('ped_ALL.txt', header=F,sep="")
 
 ##################
 # Start analysis #
