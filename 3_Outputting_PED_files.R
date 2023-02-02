@@ -1,7 +1,7 @@
 ##########################################################
 ### Author: Sarmiento Cabello, Sonia                   ###
 ### Version: 1.0.                                      ###
-### Objective: Subsetting PED files to focus in the    ###
+### Objective: Creating PED files that focus in the    ###
 ###            main relationships of 1 individual.     ###
 ##########################################################
 
