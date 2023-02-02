@@ -14,7 +14,7 @@ library(tidyverse)
 
 # Load data
 genofile <- snpgdsOpen('ref_panel_snps_f1_masked_maf05_miss05_LDpruned.gds') #GDS
-ped <- read.delim('4_fixed_sexes_readable.txt',h=F, sep="") # pedigree
+ped <- read.delim('Function1_pedigree.txt',h=F, sep="") # pedigree
 b <- as.matrix(read.table("swiss_beta_matrix.table")) #load beta matrix
 
 # Rename columns in ped (in case first row does not exist)
