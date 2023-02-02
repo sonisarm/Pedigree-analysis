@@ -17,12 +17,12 @@ library(kinship2)
 #############
 
 # Related Individuals #
-indv <- read.delim('RefPanel_Pedigree_Related_Indvs.txt', header=F,sep="")
+indv <- read.delim('Function3_RelatedIndvs.txt', header=F,sep="")
 indv <- unique(indv)
 indv_list <- as.list(indv) #make it a list 
 
 # Genetic pedigree (swiss + Georgian) #
-ped <- read.delim('ped_ALL.txt', header=F,sep="")
+ped <- read.delim('Function3_pedigree.txt', header=F,sep="")
 
 ##################
 # Start analysis #
