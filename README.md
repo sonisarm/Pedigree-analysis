@@ -23,8 +23,10 @@ Expand your pedigree with new individuals using this R code for checking relatio
 * Output: Beta matrix correlation plots with additional individuals
 
 
+## Function 3: Creating PED files with a focus individual
 
-- "Adding_individuals_to_pedigree.R": this code adds previously unidentified relationships based on beta estimates.
-- "Checking_family_links.R": with this code you can check if relationships in a ped file are correct.
-- "Making multriple trios.R": makes PED files with relevant data of the relationships of one individual up to as many as specified trios. 
+
+* Input: List of individuals, main PED file specifying all relationships
+* Script: ```2_Adding_individuals_to_pedigree.R```
+* Output: PED files of focus individual (focus individual specified in the title)
 
