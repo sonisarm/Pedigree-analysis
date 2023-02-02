@@ -14,13 +14,13 @@ Some examples of what the scripts that are shown here are able to:
 Ensure ped file relationship accuracy.
 * Input: GDS file (from VCF), PED file
 * Script: ```1_Checking_family_links.R```
-* Output: Beta matrix, Correlation map for each Family defined in PED File
+* Output: Beta matrix, Correlation plots for each Family defined in PED File
 
 ## Function 2: Adding new individuals into the pedigree
 Expand your pedigree with new individuals using this R code for checking relationships with existing families.
 * Input: GDS file (from VCF), PED file, list of individuals you want to add
 * Script: ```2_Adding_individuals_to_pedigree.R```
-* Output: 
+* Output: Beta matrix correlation plots with additional individuals
 
 
 
