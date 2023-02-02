@@ -25,8 +25,7 @@ Expand your pedigree with new individuals using this R code for checking relatio
 
 ## Function 3: Creating PED files with a focus individual
 
-
 * Input: List of individuals, main PED file specifying all relationships
-* Script: ```2_Adding_individuals_to_pedigree.R```
+* Script: ```3_Outputting_PED_files.R```
 * Output: PED files of focus individual (focus individual specified in the title)
 
