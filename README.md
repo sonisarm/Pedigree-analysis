@@ -1,4 +1,7 @@
-# Introduction
+# Pedigree analysis
+Author: Sonia Sarmiento
+
+## Introduction
 
 
 
