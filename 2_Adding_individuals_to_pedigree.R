@@ -15,8 +15,7 @@ library(dplyr)
 #Load Files
 genofile <- snpgdsOpen('ref_panel_snps_f1_masked_maf05_miss05_LDpruned.gds') #GDS
 ped <- read.delim('4_fixed_sexes_readable.txt',h=F, sep="") #ped file
-b <- as.matrix(read.table("swiss_beta_matrix.table")) #beta matrix table
-hub <- read.delim('Hubs_Libnames.txt', h=T) # List of individuals missing from the pedigree
+hub <- read.delim('Unassigned_individuals.txt', h=F) # List of individuals missing from the pedigree
 
 
 # Calculate beta estimates from genomic data
