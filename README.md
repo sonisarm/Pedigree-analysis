@@ -19,7 +19,7 @@ Ensure ped file relationship accuracy.
 ## Function 2: Adding new individuals into the pedigree
 Expand your pedigree with new individuals using this R code for checking relationships with existing families.
 * Input: GDS file (from VCF), PED file
-* Script: ```1_Checking_family_links.R```
+* Script: ```2_Adding_individuals_to_pedigree.R```
 * Output: Beta matrix, Correlation map for each Family defined in PED File
 
 
