@@ -2,9 +2,9 @@
 Author: Sonia Sarmiento
 
 ## Introduction
-Welcome to the Pedigree Analysis Repository! Here you will find different R codes for analyzing familian relationships in your datasets. With pre-defined pedigree links, you can easily perform a variety of tasks and gain insights into the relationships between individuals in your data. Whether you are working on a research project or just interested in exploring your own data, this repository is a great resource to have at your fingertips.
+Welcome to the Pedigree Analysis Repository! Here you will find different R codes for analyzing familial relationships in your datasets. With our without pre-defined pedigree links, you can easily perform a variety of tasks and gain fruther insights into the relationships between individuals in your data. Whether you are working on a research project or just interested in exploring your own data, this repository is a great resource to have at your fingertips!
 
-For instance, the scripts that are shown here are able to:
+Some examples of what the scripts that are shown here are able to:
 * Check any family links to correct when necessary
 * Add any missing individuals to the pre-existing assigned families
 * Make PED files for single or multiple trios to use, for instance, during pedigree phasing
@@ -20,7 +20,7 @@ Ensure ped file relationship accuracy.
 Expand your pedigree with new individuals using this R code for checking relationships with existing families.
 * Input: GDS file (from VCF), PED file
 * Script: ```2_Adding_individuals_to_pedigree.R```
-* Output: Beta matrix, Correlation map for each Family defined in PED File
+* Output: 
 
 
 
