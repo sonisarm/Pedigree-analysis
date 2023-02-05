@@ -1,4 +1,4 @@
-# Pedigree analysis
+# Pedigree analysis :family:
 Author: Sonia Sarmiento
 
 ## Unlock and explore familial relationships in your dataset
