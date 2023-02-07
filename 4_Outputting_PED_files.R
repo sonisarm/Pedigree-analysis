@@ -17,7 +17,7 @@ library(kinship2)
 #############
 
 # Related Individuals #
-indv <- read.delim('Function3_RelatedIndvs.txt', header=F,sep="")
+indv <- read.delim('Function4_RelatedIndvs.txt', header=F,sep="")
 indv <- unique(indv)
 indv_list <- as.list(indv) #make it a list 
 
