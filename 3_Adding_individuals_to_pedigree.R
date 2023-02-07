@@ -15,7 +15,7 @@ library(dplyr)
 #Load Files
 genofile <- snpgdsOpen('ref_panel_snps_f1_masked_maf05_miss05_LDpruned.gds') #GDS
 ped <- read.delim('Function1_pedigree_refpanel.txt',h=F, sep="") #ped file
-hub <- read.delim('Function2_UnassignedIndvs.txt', h=F) # List of individuals missing from the pedigree
+hub <- read.delim('Function3_UnassignedIndvs.txt', h=F) # List of individuals missing from the pedigree
 
 # Add column names for pedigree file (in case they are not assigned)
 colnames(ped) <- c('famid','id','dadid','momid','sex','pheno')
