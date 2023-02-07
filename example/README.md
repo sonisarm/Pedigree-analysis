@@ -12,7 +12,7 @@ Then the GDS with genotype data, should have ideally couple hundred SNPs (<1000)
 - low missingness, (```miss05```, filtered out SNPs with more than 5% missing data)
 - in low LD (```LDpruned```)
 
-Minor allele frequency can be filtered with VCFtools and LD with PLINK as follows:
+Minor allele frequency can be filtered with VCFtools and LD with PLINK in two steps (1)get SNPs with lower LD as determined, 2)keep this SNPs from input data) as follows:
 ```
 plink --vcf filteredinput.vcf --allow-extra-chr --set-missing-var-ids @:# --indep-pairwise 100 10 0.1 --out ld 
 plink --vcf filteredinput.vcf --allow-extra-chr --set-missing-var-ids @:# --extract ld.prune.in --recode vcf-iid --out output
