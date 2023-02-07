@@ -28,7 +28,7 @@ colnames(ped) <- c('famid','id','dadid','momid','sex','pheno')
 
 
 # Update sample names (if needed)
-n <- read.delim('Function2_metadata.txt', sep=",", h=T).  #File with update sample names
+n <- read.delim('Function1_metadata.txt', sep=",", h=T).  #File with update sample names
   ## Change names to new ones 
 beta.mean$sample.id=as.character(beta.mean$sample.id)
 n$rawVCFname=as.character(n$rawVCFname)
