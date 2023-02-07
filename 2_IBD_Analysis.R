@@ -1,3 +1,9 @@
+##########################################################
+### Author: Sarmiento Cabello, Sonia                   ###
+### Version: 1.0.                                      ###
+### Objective: Plot IBD between individuals to         ###
+###            elucidate unsolved relationships.       ###
+##########################################################
 
 # Load packages
 library(SNPRelate)
