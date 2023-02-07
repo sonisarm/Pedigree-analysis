@@ -18,14 +18,21 @@ Ensure ped file relationship accuracy.
 * Script: ```1_Checking_family_links.R```
 * Output: Beta matrix, Correlation plots for each Family defined in PED File
 
-## Function 2: Adding new individuals into the pedigree
+## Function 2: Plotting K0/K1 to solve undetermined relationships
+K0/K1 plotting helps determine relatedness between individuals by plotting the number of alleles shared between two individuals (more specifically, no alleles shared - K0 - vs one allele shared - K1).
+* Input: GDS file (from VCF), PED file
+* Script: ```2_IBD_Analysis.R```
+* Output: K0/k1 plots
+
+
+## Function 3: Adding new individuals into the pedigree
 Expand your pedigree with new individuals using this R code for checking relationships with existing families.
 * Input: GDS file (from VCF), PED file, list of individuals you want to add
 * Script: ```2_Adding_individuals_to_pedigree.R```
 * Output: Beta matrix correlation plots with additional individuals
 
 
-## Function 3: Creating PED files with a focus individual
+## Function 4: Creating PED files with a focus individual
 Create PED files considered a specific individual as focal. Specifically, close relationships are considered for how many trios as specified, prioritizing parental relationships and then grandparents, offspring, siblings and finally grandkids.
 * Input: List of individuals, main PED file specifying all relationships
 * Script: ```3_Outputting_PED_files.R```
