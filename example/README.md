@@ -1,6 +1,6 @@
 This file contains files to test the code in main folder. The name corresponds to the name given in the scripts. Also in the name, is indicated which code corresponds to which files (e.g.```Function1_ped_refpanel.txt``` corresponds to R code ```1_...```, but can also be used in subsequent R codes).
 
-The main files are the GDS coming from genotype data, pedigree information (either all or for your specific data organised by families) and, when needed for instance when names do not correspond between files, a metadata file indicating the matching names. Moreover, to add individuals to a pedigree we need a list of unassigned individuals and to make PED files of specific individuals, a list of the specific individuals is needed.
+The main files are the GDS coming from genotype data, pedigree information (either all or for your specific data organised by families) and, when needed for instance when names do not correspond between files, a metadata file indicating the matching names. Moreover, to add individuals to a pedigree we need a list of unassigned individuals and to make PED files of specific individuals, a list of the specific individuals is needed. Finally, to obtain a list of unrelated individuals, the population and mean read depth per individuals is required as input. 
 
 The GDS file can be made from a VCF in R as follows:
 ```{r}
