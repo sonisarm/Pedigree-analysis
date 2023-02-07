@@ -38,14 +38,6 @@ Create PED files considered a specific individual as focal. Specifically, close 
 * Script: ```4_Outputting_PED_files.R```
 * Output: PED files of focus individual (focus individual specified in the title)
 
-## Function 5: Determining unrelated samples from your dataset
-IMPORTANT: this code is to analyse your data PER POPULATION because the code corrects the beta-estimates by population value, to remove bias of detecting a unrelated individual because of different relatedness values between populations.
-* Input: GDS, read-depth per individual
-* Script: ```5_UnrelatedIndividuals.R```
-* Output: List of unrelated samples in your dataset
-
-
-
 
 
 
