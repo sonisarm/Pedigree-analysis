@@ -19,8 +19,8 @@ RV <- snpgdsIBDMoM(genofile, autosome.only = F)
 snpgdsClose(genofile)
 
 # Load PED file
-ped <- read.delim('Function1_pedigree.txt',h=F, sep="")
-colnames(ped) <- c('famid','id','dadid','momid','sex','status', 'affected')
+ped <- read.delim('Function1_pedigree_refpanel.txt',h=F, sep="")
+colnames(ped) <- c('famid','id','dadid','momid','sex','pheno')
 
 # Read file with new names 
 n <- read.delim('Function1_metadata.txt', sep=",", h=T)
