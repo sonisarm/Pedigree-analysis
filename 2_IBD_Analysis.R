@@ -19,21 +19,21 @@ RV <- snpgdsIBDMoM(genofile, autosome.only = F)
 snpgdsClose(genofile)
 
 # Load PED file
-ped <- read.delim('4_fixed_sexes_readable_All.txt',h=F, sep="")
+ped <- read.delim('Function1_pedigree.txt',h=F, sep="")
 colnames(ped) <- c('famid','id','dadid','momid','sex','status', 'affected')
 
 # Read file with new names 
-n <- read.delim('refpanel_metadata.txt', sep=",", h=T)
-## Change the values to character 
+n <- read.delim('Function1_metadata.txt', sep=",", h=T)
+## Change the values to character
 RV$sample.id=as.character(RV$sample.id)
 n$rawVCFname=as.character(n$rawVCFname)
 n$NEWname=as.character(n$NEWname)
-
 ## Replace the names in the beta matrix
 pos_newname<- match(RV$sample.id, n$rawVCFname)
 pos_newname=na.omit(pos_newname)
-#The code below has the same output as if we loop through all values in list "pos_beta"
+#The code replaces names in the IBD matrix
 RV$sample.id[pos_newname] <- n$NEWname[pos_newname] #Replace the values
+
 # Plot RV 
   # Colour function
 add.alpha <- function(col, alpha=1){
