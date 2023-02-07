@@ -25,7 +25,7 @@ beta1 <- snpgdsIndivBeta(genofile, autosome.only = F)
 beta.mean <- snpgdsIndivBetaRel(beta1, mean(beta1$beta))
 
 # The following section is to change names of samples if needed
-n <- read.delim('refpanel_metadata.txt', sep=",", h=T) #Data containing different names (e.g. old vs new naming)
+n <- read.delim('Function3_metadata.txt', sep=",", h=T) #Data containing different names (e.g. old vs new naming)
   #Change sample ID to new names 
 ind <- match(beta.mean$sample, n$rawVCFname)
 beta.mean$sample.id[!is.na(ind)] <- n$NEWname[ind[!is.na(ind)]]
