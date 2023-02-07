@@ -14,18 +14,16 @@ library(dplyr)
 
 #Load Files
 genofile <- snpgdsOpen('ref_panel_snps_f1_masked_maf05_miss05_LDpruned.gds') #GDS
-ped <- read.delim('Function1_pedigree.txt',h=F, sep="") #ped file
+ped <- read.delim('Function1_pedigree_refpanel.txt',h=F, sep="") #ped file
 hub <- read.delim('Function2_UnassignedIndvs.txt', h=F) # List of individuals missing from the pedigree
 
+# Add column names for pedigree file (in case they are not assigned)
+colnames(ped) <- c('famid','id','dadid','momid','sex','pheno')
 
 # Calculate beta estimates from genomic data
 beta1 <- snpgdsIndivBeta(genofile, autosome.only = F)
 showfile.gds(closeall=TRUE)        # Close files after loading them to R
 beta.mean <- snpgdsIndivBetaRel(beta1, mean(beta1$beta))
-
-# Add column names for pedigree file (in case they are not assigned)
-colnames(ped) <- c('famid','id','dadid','momid','sex','pheno')
-
 
 # Update sample names (if needed)
 n <- read.delim('Function1_metadata.txt', sep=",", h=T).  #File with update sample names
