@@ -22,7 +22,8 @@ indv <- unique(indv)
 indv_list <- as.list(indv) #make it a list 
 
 # Genetic pedigree (swiss + Georgian) #
-ped <- read.delim('Function4_pedigree_all.txt', header=T,sep=",")
+#ped <- read.delim('Function4_pedigree_all.txt', header=T,sep=",") #you can use this pedigree with info of all individuals, but then you have to fix below for family specification.
+ped <- read.delim('Function1_pedigree_refpanel.txt', header=F,sep="") 
 
 ##################
 # Start analysis #
