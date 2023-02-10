@@ -1,7 +1,9 @@
 # Pedigree analysis :family:
 Author: Sonia Sarmiento
 
-## Unlock and explore familial relationships in your dataset
+### Description: Unlock and explore familial relationships in your dataset
+
+#### Coding: all scripts are in R 
 
 ## Introduction
 Welcome to the Pedigree Analysis Repository! Here you will find different R codes for analyzing familial relationships in your datasets. With our without pre-defined pedigree links, you can easily perform a variety of tasks and gain fruther insights into the relationships between individuals in your data. Whether you are working on a research project or just interested in exploring your own data, this repository is a great resource to have at your fingertips!
