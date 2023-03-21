@@ -26,6 +26,7 @@ K0/K1 plotting helps determine relatedness between individuals by plotting the n
 * Script: ```2_IBD_Analysis.R```
 * Output: K0/k1 plots
 
+To decipher relationships from K0/K1 graphs, this paper is crucial: [Hill and Weir 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3070763/)
 
 ## Function 3: Adding new individuals into the pedigree
 Expand your pedigree with new individuals using this R code for checking relationships with existing families.
